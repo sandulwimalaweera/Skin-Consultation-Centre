@@ -38,4 +38,11 @@ public class Person {
     public void setMob(String mob) {
         this.mob = mob;
     }
+
+    public Person(String name, String surname, Date dob, String mob) {
+        this.name = name;
+        this.surname = surname;
+        this.dob = dob;
+        this.mob = mob;
+    }
 }
