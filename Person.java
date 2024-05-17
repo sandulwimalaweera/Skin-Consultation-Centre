@@ -23,7 +23,7 @@ public class Person {
         this.surname = surname;
     }
 
-    public Date getDob() {
+    public <Date> Date getDob() {
         return dob;
     }
 

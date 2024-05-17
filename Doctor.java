@@ -3,13 +3,17 @@ import java.util.Date;
 public class Doctor extends Person{
     private String specialization;
     private int licenceNo;
+    private  int age;
 
 
 
-    public Doctor(String name, String surname, Date dob, String mob,String specialization, int licenceNo) {
+
+    public Doctor(String name, String surname, Date dob, String mob,String specialization, int licenceNo , int age) {
         super(name, surname, dob, mob);
         this.specialization = specialization;
         this.licenceNo = licenceNo;
+        this.age = age;
+
 
     }
 
